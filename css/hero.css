@@ -1,0 +1,24 @@
+body{
+	margin: 0px;
+
+	background-color: snow;
+	font-family: Helvetica, Arial, sans-serif;
+}
+header{
+	background-color: firebrick;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+header h1{
+	color: snow;
+	
+}
+header img{
+
+border-radius: 1000px;
+width: 300;
+padding: 5px;
+border: solid 15px crimson;
+
+}
