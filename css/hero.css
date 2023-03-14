@@ -3,6 +3,9 @@ body{
 
 	background-color: snow;
 	font-family: Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	color: #1c1f1d;
+	line-height: 30px;
 }
 header{
 	background-color: firebrick;
@@ -10,8 +13,12 @@ header{
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+h1, h2{
+	font-family: 'Righteous', cursive;
+}
 header h1{
 	color: snow;
+	font-size: 100px;
 	
 }
 header img{
@@ -20,5 +27,53 @@ border-radius: 1000px;
 width: 300;
 padding: 5px;
 border: solid 15px crimson;
+
+}
+
+main{
+	max-width: 2100px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+h2{
+	margin: 40px, 0 10px;
+	font-size: 50px;
+	color: #383b39;
+}
+a{
+	color: firebrick;
+}
+
+a:hover{
+	color: snow;
+	background-color: firebrick;
+}
+
+footer{
+	margin-bottom: 20px;
+	padding: 30px;
+	background-color: firebrick;
+	text-align: center;
+	color: snow;
+	font-size: 15px;
+}
+
+footer a{
+	color: snow;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	margin: 0;
+	font-size: 20px;
+	color: lightgray;
+	font-style: italic;
 
 }
